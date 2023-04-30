@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - prints a triangle of squares according to parameter
- * @aize: the size of the square triangle
+ * @size: the size of the square triangle
  * Return: empty
  */
 
@@ -17,7 +17,7 @@ else
 {
 for (x = 0; x < size; x++)
 {
-for (y = size - x; y >1; y--)
+for (y = size - x; y > 1; y--)
 {
 _putchar(32);
 }
